@@ -1,0 +1,25 @@
+{
+  "name": "ydkjs-resolution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HigorMenezes/ydkjs-resolution.git",
+  "author": "Higor Menezes <higormenezes1996@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "prod": "yarn run build && node dist/server.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
