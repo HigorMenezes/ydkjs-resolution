@@ -12,14 +12,12 @@
     "prod": "yarn run build && node dist/server.js"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^1.13.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.2",
     "nodemon": "^1.19.1",
     "prettier": "^1.18.2",
     "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.3"
   }
 }
